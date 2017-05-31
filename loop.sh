@@ -7,5 +7,5 @@ do
    `sh ./push.sh`
    time=`date +'%Y-%m-%d %H:%M:%S' -d '-1 days'`
    datetime=`date -d "$time" +%s`
-   date "$datetime"
+   date -s "$time"
 done
