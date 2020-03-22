@@ -9,4 +9,3 @@ do
    timedatectl set-time "$time"
 done
 
-
